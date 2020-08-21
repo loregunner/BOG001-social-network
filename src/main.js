@@ -142,8 +142,3 @@ formulario.addEventListener('submit', (e) => {
 
 /*firebase*/
 
- const singUp = document.querySelector('formulario');
-
- singUp.addEventListener('submit-btn' , () => {
-	 console.log("enviando")
- })

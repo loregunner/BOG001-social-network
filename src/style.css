@@ -891,6 +891,10 @@ p2{
     .formulario__input-error{
         font-size: 3vw;
     }
+
+    .formulario__mensaje-exito{
+    font-size: 4vw;
+    }
     .box-check{
         transform: scale(1.5);
         margin-left: 15%;
