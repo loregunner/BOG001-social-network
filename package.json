@@ -32,5 +32,18 @@
     "serve": "^11.0.2",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loregunner/BOG001-social-network.git"
+  },
+  "author": "lorena",
+  "bugs": {
+    "url": "https://github.com/loregunner/BOG001-social-network/issues"
+  },
+  "homepage": "https://github.com/loregunner/BOG001-social-network#readme"
 }
