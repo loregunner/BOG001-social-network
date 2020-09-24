@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Social Network @ Laboratoria",
   "main": "src/index.html",
+  "gh-pages": "^2.1.1",
   "keywords": [
     "javascript",
     "firebase",
@@ -15,6 +16,7 @@
     "stylelint": "stylelint --aei src/**/*.css",
     "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
     "test": "jest --coverage",
+    "deploy": "gh-pages -d src",
     "start": "serve src/"
   },
   "devDependencies": {
@@ -36,7 +38,8 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/loregunner/BOG001-social-network.git"
