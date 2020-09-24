@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+  }
+  
+  @font-face{
+    font-family: boo;
+    src: url(HelloBoomerang.ttf);
+  }
+  
+  @font-face{
+    font-family: delius;
+    src: url(Delius-Regular.ttf);
+  }
+  
+  @font-face{
+    font-family: wildu;
+    src: url(WildWordsRoman.ttf);
+  }
+  
+  /* Inicico */
+  .container-firts{
+    z-index: 500;
+    height: 25%;
+    background-color: #B0B7FB;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  
+  .container-second{
+    height: 100%;
+    display: flex;
+  }
+  
+  .container-logo{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 0.5%;
+  }
+  
+  .container-img-logo{
+    width: 80%;
+    position: relative;
+  }
+  
+  .logoImg{
+    width: 100%;
+  }
+  
+  .name-logo{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -60px;
+    font-family: wildu;
+    font-size: 2vw;
+  }
+  
+  .name-logo1{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-family: wildu;
+    font-size: 2vw;
+  }
+  
+  .logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap ;
+  }
+  
+  .logo1{   
+    font-family: wildu;
+    font-size: 3vw;
+    letter-spacing: 2px;
+  }
+  
+  .logoImg{
+    width: 50%;
+  }
+  
+  /* Navegacion */
+  
+  .navigation1{
+    display: flex;
+    margin-top: 6%;
+    margin-right: 8%;
+  }
+  
+  .navigation1 ul{
+    margin: 0;
+    padding: 0;
+    color: black;
+    list-style: none;
+  }
+  
+  .navigation1 ul li{
+    display: inline-block;
+    font-size: 2.5vw;
+    font-family: boo;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navigation1 ul li a:hover{
+    background-color: cadetblue;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+  }
+  
+  /* Perfil */
+  
+  a{
+    text-decoration: none;
+  }
+  .containerProfile{
+    width: 100%;
+    height: 300px;  
+    display: flex;
+    flex-direction: column;
+    background-image: url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 8%;
+    margin-top: 12%;
+  }
+  .name{
+    margin-top: -5%;
+    margin-left: 18%;
+    font-family: delius;
+    font-size: 2vw;
+  }
+  .btnEdit{
+    line-height: 35px;
+    width: 8%;
+    margin-left: 18%;
+    cursor: pointer;
+    background:rgba(123, 112, 159, 1);
+    font-family: boo;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-align: center;
+    border-radius: 3px;
+    transition: .1s ease all;
+    list-style: none;
+  }
+  /* Publicaciones */
+  .container-globalPro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .containerInfo{
+    border: 1px solid black;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 10%;
+    font-family: boo;
+    padding-left: 1%;
+  }
+  .containerinfo1{
+    width: 100%;
+  }
+  .containerPublication{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+  }
+  #publicForm{
+    width: 100%;
+    height: 100%;
+  }
+  .textControl{
+    width: 80%;
+  }
+  #textControl::placeholder{
+    border: none;
+    font-family: delius;
+    font-size: 1.5vw;
+    color: #38383B;
+    font-weight: bold;
+    padding-top: 2.8%;
+    padding-left: 5%;
+  }
+  .avatar1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 0%;
+  }
+  .containerinfo1{
+    display: flex;
+  }
+  #buttonPublic{
+    width: 11%;
+    height: 41px;
+    z-index: 200;
+    margin-top: 6.4%;
+    background: rgba(123, 112, 159, 1);
+    border: none;
+    border-radius: 3px;
+    font-family: boo;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-left: -10.90%;
+    position: absolute;
+  }
+  .containerinfo1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 46%;
+  }
+  #publicationTitle{
+    font-size: 2vw;
+    margin-left: 45%;
+  }
+  .showPublication{
+    border: 1px solid gray;
+    font-family: delius;
+    margin-top: 2%;
+    height: 100%;
+    text-align: center;
+  }
+  .btnBorrar{
+    width: 12%;
+    height: 35px;
+    background: rgba(123, 112, 159, 1);
+    border: none;
+    border-radius: 3px;
+    font-family: boo;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+  .btnEditar{
+    width: 12%;
+    height: 35px;
+    background: rgba(123, 112, 159, 1);
+    border: none;
+    border-radius: 3px;
+    font-family: boo;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+  @media (max-width: 500px){
+    .containerProfile{
+      height: 250px;
+      margin-top: 24%;
+    }
+    .navigation1{
+      margin-left: 5%;
+      margin-top: 10%;
+    }
+    .navigation1 ul li{
+      font-size: 4vw;
+    }
+    .avatar{
+      margin-left: 35%;
+    }
+    .name{
+      margin-left: 33%;
+      margin-top: 1%;
+      font-size: 8vw;
+    }
+    .btnEdit{
+      margin-left: 35%;
+      width: 30%;
+      font-size: 4.5vw;
+    }
+    .container-globalPro{
+      flex-direction: column;
+    }
+    .containerInfo{
+      width: 64%;
+      margin-top: 3%;
+      margin-left: 22%;
+    }
+    .containerText{
+      width: 90%;
+      margin-left: 3%;
+      margin-top: 1%;
+    }
+    .avatar1{
+      width: 90px;
+      height: 90px;
+      margin-top: 2%;
+    }
+    .textControl{
+      width: 72%;
+    }
+    #textControl::placeholder{
+      font-size: 4vw;
+    }
+    .containerinfo1{
+      flex-direction: column;
+    }
+    #buttonPublic{
+      width: 26%;
+      height: 5%;
+      margin-top: 18%;
+      z-index: 100;
+      margin-left: -26%;
+      font-size: 3.5vw;
+    }
+    #publicationTitle{
+      font-size: 5vw;
+      margin-left: 26%;
+    }
+    .showPublicatio{
+      width: 141%;
+      margin-left: -38%;
+    }
+    .btnBorrar{
+      width: 24%;
+      font-size: 3.5vw;
+    }
+    .btnEditar{
+      width: 24%;
+      font-size: 3.5vw;
+    }
+    .showPublication{
+      width: 143%;
+      margin-left: -41%;
+    }
+    }
+    @media (min-width: 501px) and (max-width: 900px){
+      .navigation1{
+        margin-top: 13%;
+        margin-left: 20%;
+      }
+      .containerProfile{
+        margin-top: 13%;
+      }
+      .navigation1 ul li{
+        font-size: 3vw;
+      }
+      .avatar{
+        margin-left: 45%;
+      }
+      .name{
+        margin-top: 0%;
+        margin-left: 43%; 
+        font-size: 4vw;
+      }
+      .btnEdit{
+        width: 12%;
+        margin-left: 46%;
+        font-size: 2.5vw;
+      }
+      .container-globalPro{
+        flex-direction: column;
+      }
+      .containerInfo{
+        width: 80%;
+        height: 66%;
+        margin-top: 2%;
+      }
+      .letra{
+        font-size: 4vw;
+      }
+      .containerPublication{
+        margin-top: 2%;
+      }
+      .containerText{
+        width: 100%;
+      }
+      #miid1::placeholder{
+        font-size: 3vw;
+      }
+      .avatar1{
+        margin-right: 2%;
+      }
+      .textControl{
+        width: 71%;
+        height: 124%;
+      }
+      #textControl::placeholder{
+        font-size: 3vw;
+      }
+      #buttonPublic{
+        width: 16%;
+        margin-left: -16%;
+        font-size: 2vw;
+        margin-top: 10%;
+      }
+      #publicationTitle{
+        font-size: 5vw;
+        margin-left: 19%;
+      }
+    }
+    @media (min-width: 901px) and (max-width: 1200px){
+      .containerProfile{
+        margin-top: 2%;
+      }
+      .navigation1{
+        margin-top: 17%;
+      }
+      .name{
+        font-size: 4vw;
+        margin-left: 19%;
+      }
+      .btnEdit{
+        width: 10%;
+        margin-left: 18%;
+        font-size: 2vw;
+      }
+      .containerInfo{
+        margin: 1%;
+        width: 54%;
+      }
+    }

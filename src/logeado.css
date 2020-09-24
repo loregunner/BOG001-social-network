@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: boo;
+    src: url(HelloBoomerang.ttf);
+}
+
+@font-face{
+    font-family: delius;
+    src: url(Delius-Regular.ttf);
+}
+
+@font-face{
+    font-family: wildu;
+    src: url(WildWordsRoman.ttf);
+}
+.navigation1{
+    display: flex;
+    margin-top: 6%;
+    margin-right: 8%;
+  }
+  
+  .navigation1 ul{
+    margin: 0;
+    padding: 0;
+    color: black;
+    list-style: none;
+  }
+  
+  .navigation1 ul li{
+    display: inline-block;
+    font-size: 2.5vw;
+    font-family: boo;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navigation1 ul li a:hover{
+    background-color: cadetblue;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+  }
+.container3{
+    border: solid black 2px;
+    width: 90%;
+    padding: 8px 0 15px 10px;
+    margin-left: 5%;
+}
+.form-control{
+    border: none;
+    font-size: 1.5vw;
+    background-color: #E2E2E8;
+   }
+   #miid::placeholder {
+    padding-left: 50px;
+    padding-top: 50px;
+    font-family: delius;
+  }
+.card-body{
+    border: black solid 2px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+#public-button{
+    background-color: #7B709F;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: black;
+   font-family: boo;
+    
+}
+ .publicar{
+     width: 15%;
+ }
+ .button{
+    width: 20%;
+    height: 150px;
+    margin: -90px 852px
+ }
+ .foto{
+     width: 7%;
+ }
+
+ #foto-button1{
+     padding-top: 5%;
+    margin: 10px;
+ }
+ .video{
+    width: 7%;
+    
+}
+
+#foto-button2{
+    padding: 0px 2px 15px;
+}
+.musica{
+    width: 7%;
+}
+
+#foto-button3{
+    margin: 8px 8px;
+}
+.lista{
+    width: 7%;
+}
+
+#foto-button4{
+    margin: 6px -6px;
+   
+}
+.fotob{
+    margin: -19px 0px 21px;
+    display: inline-block;
+    
+}
+#publicacion{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 2px solid black;
+}
+
+.publicen{
+    width: 53%;
+    border: 2px solid black;
+    margin-left: 25%;
+    font-family: delius;
+}
+.completo{
+    margin: 10px -8px 26px;
+    display: inline-block;
+}
+.basura{
+    width: 7%;
+}
+.borrar{
+    margin:-120px -457px 18px 595px;
+}
+
+.editando{
+    width: 10%;
+}
+.editar{
+    margin:-53px -122px -80px 509px;
+}
+.likebutton{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.like{
+    width: 6%;
+}
+.likeHeart{
+  overflow: hidden;
+  margin-left: 5%;
+  margin-top: -2%;
+}
+.heart{
+    width: 6%;
+}
+.comentario{
+   margin: -39px -14px 85px 110px;
+}
+.comentar{
+    width: 7%;
+}
+
+.seccion{
+    border: 2px solid black;
+}
+.usuario{
+    font-family: boo;
+    font-size: 2vw;
+    justify-content: center;
+}
+.hidden{
+    display: none;
+}
+.publica{
+    font-size: 3vw;
+}
+@media (min-width: 100px) and (max-width: 500px) {
+    .card-body{
+        margin-top: 70%;
+    }
+
+    .form-control{
+        width: 100%;
+        height: 95px;
+        border: none;
+        font-size: 3vw;
+        background-color: #E2E2E8;
+       }
+       #miid::placeholder {
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+    .container3{
+        padding: 12px 0 22px 10px;
+    }
+    .fotob{
+        margin: -70px 0px 18px;
+    }
+    .foto{
+        width: 10%;
+    }
+    #foto-button1{
+        padding-top: 25%;
+        margin: 0px -38px 0px -1px;
+    }
+    .video{
+        width: 12%;
+    }
+    #foto-button2{ 
+        margin: 0px -50px -11px 39px;
+        }
+    .musica{
+        width: 7%;
+    }
+    #foto-button3{
+        margin: 0px 10px 5px 54px;
+    }
+    .video{
+        width: 8%;
+    }
+    #foto-button4 {
+        margin: 0px -6px;
+    }
+    .lista{
+        width: 10%;
+    }
+    .button{
+        margin: -54px 181px -135px;
+        width: 30%;
+    }
+
+    #public-button{
+        font-size: 3vw;
+    }
+    .publicar{
+        width: 20%;
+    }
+    .basura{
+        width: 5%;
+    }
+    .borrar{
+        margin:-130px -276px 15px 112px;
+    }
+    .editando{
+        width: 8%;
+    }
+    .editar{
+        margin:-37px -93px -29px 138px;
+    }
+ .likebutton{
+    margin-left: 9%;
+    margin-top: 1%;
+ }
+    .like{
+        width: 6%;
+    }
+    .likeHeart{
+      overflow: hidden;
+        margin-left: 9%;
+        margin-top: 1%;
+    }
+    .heart{
+        width: 6%;
+    }
+    .comentario{
+       margin: -17px -43px 113px 47px;
+       font-size: 2vw;
+    }
+    .comentar{
+        width: 7%;
+    
+    }
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+    .card-body{
+        margin-top: 43%;
+    }
+
+    .form-control{
+        width: 100%;
+        height: 100px;
+        border: none;
+        font-size: 3vw;
+        background-color: #E2E2E8;
+       }
+       #miid::placeholder {
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+    .container3{
+        padding: 48px 0px 12px 10px;
+    }
+    .fotob {
+        margin-top: -79px;
+    }
+    .button{
+        margin: -80px 398px -5px;
+        width: 30%;
+        border: 2px solid;
+        height: 46px;
+    }
+    .comentario{
+        margin: -30px -51px 120px 77px;
+    }
+    .borrar{
+        margin:-146px -291px 23px 295px;
+    }
+    .editar {
+        margin: -51px -90px -33px 240px;
+    }
+}
+@media (min-width: 950px) and (max-width: 1290px){
+    .button {
+        margin: -90px 801px;
+    }
+    
+.borrar {
+    margin: -120px -457px 27px 559px;
+}
+}

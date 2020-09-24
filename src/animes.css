@@ -1,0 +1,823 @@
+@font-face{
+    font-family: boo;
+    src: url(HelloBoomerang.ttf);
+}
+
+@font-face{
+    font-family: delius;
+    src: url(Delius-Regular.ttf);
+}
+
+@font-face{
+    font-family: wildu;
+    src: url(WildWordsRoman.ttf);
+}
+.ojo{
+    width: 2%;
+}
+.recomendaciones{
+    margin-top: 20%;
+    margin-left: 10%;
+    
+}
+.recom{
+    top: -5%;
+    font-family: delius;
+}
+.lista{
+    font-size: 4vw;
+    font-family: boo;
+    font-style: inherit;
+}
+.animes{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+c{
+    padding: 4px 66px 0px 97px;
+    background-color: #B0B7FB;
+    font-family: delius;
+
+    
+}
+.haru{
+    width: 20%;
+}
+.itazura{
+    margin-top: -15%;
+    margin-left: 25%;
+}
+.kiss{
+    width: 28%;
+
+}
+.kimi{
+    margin-top: -15.5%;
+    margin-left: 50%;
+}
+.ni{
+    width: 42%;
+}
+
+.mashi{
+    margin-top: -17%;
+    margin-left: 75%;
+}
+.kami{
+    width: 80%;
+}
+.c1{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 30px 3px 60px;
+}
+
+.kuro{
+    margin-top: 5%;
+}
+
+.c2{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 30px 3px 60px;
+}
+
+.nayo{
+    margin-top: -15%;
+    margin-left: 25%;
+}
+.c3{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 80px 3px 60px;
+}
+.tonari{
+    margin-top: -14.5%;
+    margin-left: 50%;
+}
+.kun{
+    width: 35%; 
+}
+.c4{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 40px 3px 25px;
+}
+.maid{
+    margin-top: -15.5%;
+    margin-left: 75%;
+}
+.sam{
+    width: 80%;
+}
+.c5{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 75px 3px 40px;
+}
+
+.yona{
+    margin-top: 6%;
+}
+
+.yono{
+    width: 20%;
+}
+.c6{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 80px 3px 58px;
+}
+
+.ita{
+    margin-top: -12%;
+    margin-left: 25%;
+}
+.ga{
+    width: 30%;
+}
+.c7{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 80px 3px 112px;
+}
+
+.furu{
+    margin-top: -12%;
+    margin-left: 50%;
+}
+
+.fura{
+    width: 39.5%;
+} 
+
+.lovers{
+    margin-top: -13%;
+    margin-left: 75%;
+}
+
+.lik{
+    width: 85%;
+}
+
+.fruit{
+    margin-top: 6%;
+}
+.ket{
+    width: 20%;
+}
+.c8{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 80px 3px 98px;
+}
+.nozaki{
+    margin-top: -15%;
+    margin-left: 25%;
+}
+
+.zaki{
+    width: 30%;
+}
+.c9{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 22px 3px 80px;
+}
+.complex{
+    margin-top: -15%;
+    margin-left: 50%
+}
+
+.plex{
+    width: 40%;
+}
+.c10{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 80px 3px 73px;
+}
+.oro{
+    margin-top: -16.5%;
+    margin-left: 75%;
+}
+.tari{
+    width: 85%;
+}
+.c12{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 90px 3px 136px;
+}
+.host{
+    margin-top: 6%;
+   }
+   .club{
+       width: 20%;
+   }
+   .c11{
+       margin: 0px 0px 0px -1px;
+       padding: 3px 40px 3px 53px;
+   }
+   
+   .cial{
+       margin-top: -14%;
+       margin-left: 25%;
+   }
+   .spe{
+       width: 30%;
+   }
+.dora{
+    margin-top: -14.5%;
+    margin-left: 50%
+}
+.tora{
+    width: 40%;
+}
+.c13{
+    margin: 0px 0px 0px -1px;
+    padding: 3px 105px 3px 93px;
+}
+.pire{
+    margin-top: -14.5%;
+    margin-left: 75%;
+}
+
+.vam{
+    width: 86%;
+}
+@media (max-width: 500px) {
+    .animes{
+        margin-left: 2%;
+    }
+    .recomendaciones{
+        margin-top: 70%;
+    }
+    .lista{
+        font-size: 5vw;
+    }
+
+    .ojo{
+        width: 7%;
+    }
+
+    .recom{
+        margin-top: 7%;
+        font-size: 4vw;
+    }
+
+    .haru{
+        width: 90%;
+    }
+
+    .Ao{
+        margin-left: 8%;
+    }
+    c{
+        padding: 4px 82px 0px 105px;
+        
+    }
+     .kiss{
+         width: 91%;
+     }
+    .itazura{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+
+    .kimi{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .ni{
+        width: 90%;
+    }
+
+    .mashi{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .kami{
+        width: 90%;
+    }
+    .c1{
+        padding: 3px 45px 3px 70px;
+    }
+
+    .kuro{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .to{
+        width: 90%;
+    }
+    .c2{
+        padding: 3px 52px 3px 70px;
+    }
+
+    .nayo{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+
+    .yo{
+        width: 90%;
+    }
+    .c3{
+        padding: 4px 106px 3px 70px;
+    }
+
+    .tonari{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .kun{
+        width: 90%; 
+    }
+    .c4{
+        padding: 3px 55px 3px 64px;
+    }
+
+    .maid{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .sam{
+        width: 90%;
+    }
+    .c5{
+        padding: 3px 75px 3px 63px;
+    }
+    .yona{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .yono{
+        width: 90%;
+    }
+    .c6{
+        padding: 3px 99px 3px 64px;
+    }
+
+    .ita{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .ga{
+        width: 90%;
+    }
+    .c7{
+        padding: 3px 92px 3px 98px;
+    }
+    .furu{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .fura{
+        width: 90%;
+    } 
+    .c7a{
+        padding: 3px 80px 3px 115px;
+    }
+    .lovers{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .lik{
+        width: 90%;
+    }
+    .c7b{
+        padding: 3px 76px 0px 102px;
+
+    }
+    .fruit{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .ket{
+        width: 90%;
+    }
+    .c8{
+        padding: 3px 86px 3px 119px;
+    }
+    .nozaki{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .zaki{
+        width: 90%;
+    }
+    .c9{
+        padding: 3px 42px 3px 56px;
+    }
+    .complex{
+        margin-top: 4%;
+        margin-left: 8%
+    }
+    
+    .plex{
+        width: 90%;
+    }
+    .c10{
+        padding: 3px 80px 3px 96px;
+    }
+    .oro{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .tari{
+        width: 90%;
+    }
+    .c10a{
+        padding: 3px 74px 3px 97px;
+    }
+    .host{
+        margin-top: 4%;
+        margin-left: 8%;
+       }
+       .club{
+           width: 90%;
+       }
+       .c11{
+           padding: 3px 41px 3px 53px;
+       }
+       
+       .cial{
+           margin-top: 4%;
+           margin-left: 8%;
+       }
+       .spe{
+           width: 90%;
+       }
+       .c12{
+        padding: 3px 103px 3px 117px;
+    }
+    .dora{
+        margin-top: 4%;
+        margin-left: 8%
+    }
+    .tora{
+        width: 90%;
+    }
+    .c13{
+        padding: 3px 101px 3px 120px;
+    }
+    .pire{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .vam{
+        width: 90%;
+    }
+    .c14{
+        padding:3px 84px 3px 90px;
+    }
+}
+@media (min-width: 501px) and (max-width: 900px){
+    .recomendaciones{
+        margin-top: 40%;
+    }
+   
+    .lista{
+        font-size: 5vw;
+    }
+
+    .ojo{
+        width: 7%;
+    }
+
+    .recom{
+        margin-top: 7%;
+        font-size: 4vw;
+    }
+
+    .haru{
+        width: 90%;
+    }
+
+    .Ao{
+        margin-left: 8%;
+    }
+    c{
+        padding: 4px 220px 0px 248px;
+        font-size: 3vw;
+        
+    }
+     .kiss{
+         width: 91%;
+     }
+    .itazura{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+
+    .kimi{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .ni{
+        width: 90%;
+    }
+
+    .mashi{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .kami{
+        width: 90%;
+    }
+    .c1{
+        padding: 3px 161px 3px 196px;
+    }
+
+    .kuro{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .to{
+        width: 90%;
+    }
+    .c2{
+        padding: 3px 164px 3px 209px;
+    }
+
+    .nayo{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+
+    .yo{
+        width: 90%;
+    }
+    .c3{
+        padding: 3px 213px 3px 237px;
+    }
+
+    .tonari{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .kun{
+        width: 90%; 
+    }
+    .c4{
+        padding: 3px 169px 3px 200px;
+    }
+
+    .maid{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .sam{
+        width: 90%;
+    }
+    .c5{
+        padding:3px 198px 3px 198px;
+    }
+    .yona{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .yono{
+        width: 90%;
+    }
+    .c6{
+        padding: 3px 203px 3px 226px;
+    }
+
+    .ita{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .ga{
+        width: 90%;
+    }
+    .c7{
+        padding: 3px 238px 3px 233px;
+    }
+    .furu{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .fura{
+        width: 90%;
+    } 
+    .c7a{
+        padding: 3px 240px 3px 236px;
+    }
+    .lovers{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .lik{
+        width: 90%;
+    }
+    .c7b{
+        padding: 3px 227px 3px 225px;
+    }
+    .fruit{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .ket{
+        width: 90%;
+    }
+    .c8{
+        padding: 3px 254px 3px 248px;
+    }
+    .nozaki{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .zaki{
+        width: 90%;
+    }
+     .c9{
+        padding: 3px 166px 3px 169px;
+    }
+    .complex{
+        margin-top: 4%;
+        margin-left: 8%
+    }
+   
+    .plex{
+        width: 90%;
+    }
+    .c10{
+        padding: 3px 213px 3px 238px;
+    }
+    .oro{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    .tari{
+        width: 90%;
+    }
+    .c10a{
+        padding: 3px 215px 3px 226px;
+    }
+  
+    .host{
+        margin-top: 4%;
+        margin-left: 8%;
+       }
+       .club{
+           width: 90%;
+       }
+       .c11{
+           padding:3px 164px 3px 171px;
+       }
+       
+       .cial{
+           margin-top: 4%;
+           margin-left: 8%;
+       }
+       .spe{
+           width: 90%;
+       } 
+        .c12{
+        padding: 3px 227px 3px 289px;
+    }
+    .dora{
+        margin-top: 4%;
+        margin-left: 8%
+    }
+    .tora{
+        width: 90%;
+    }
+    .c13{
+        padding: 3px 255px 3px 259px;
+    }
+    .pire{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+    
+    .vam{
+        width: 90%;
+    }
+    .c14{
+        padding: 3px 234px 3px 215px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1285px){
+    .recomendaciones{
+        margin-top: 30%;
+    }
+    c{
+        padding: 4px 68px 0px 81px;
+    }
+    .Ao{
+        margin-top: -5%;
+    }
+    .itazura{
+        margin-top: -15.5%;
+        margin-left: 25%;
+    }
+    .kimi{
+        margin-top: -17%;
+        margin-left: 50%;
+    }
+    .mashi{
+        margin-top: -16.5%;
+        margin-left: 75%;
+    }
+    .c1 {
+        padding: 3px 36px 3px 36px;
+    }
+    .kuro{
+        margin-top: 3%;
+    }
+    .nayo{
+        margin-top: -15.5%;
+        margin-left: 25%;
+    }
+    .tonari{
+        margin-top: -15%;
+        margin-left: 52%;
+    }
+    .c4 {
+        padding: 3px 17px 3px 26px;
+    }
+    .maid{
+        margin-top: -14.5%;
+        margin-left: 75%;
+    }
+    .c5{
+        padding: 3px 53px 3px 46px;
+    }
+    .yona{
+        margin-top: 4%;
+    }
+    .c6{
+        padding: 3px 60px 3px 62px;
+    }
+    .ita{
+        margin-top: -12.5%;
+        margin-left: 25%;
+    }
+    .c7{
+        padding: 3px 82px 3px 98px;
+    }
+    .furu{
+        margin-top: -11%;
+        margin-left: 50%;
+    }
+    .lovers{
+        margin-top: -13%;
+        margin-left: 75%;
+    }
+    .fruit{
+        margin-top: 2%;
+    }
+    .c8{
+        padding: 3px 82px 3px 86px;
+    }
+    .nozaki{
+        margin-top: -15%;
+        margin-left: 25%;
+    }
+    .c9{
+        padding:3px 44px 3px 43px;
+    }
+    .complex{
+        margin-top: -15.5%;
+        margin-left: 50%
+    }
+    .c10{
+        padding: 3px 68px 3px 67px;
+    }
+    .oro{
+        margin-top: -16.5%;
+        margin-left: 75%;
+    }
+    .c10a{
+        padding: 3px 68px 3px 78px;
+    }
+    .host{
+        margin-top: 5%;
+       }
+       .c11{
+        padding: 3px 44px 3px 41px;
+       }
+    .cial{
+           margin-top: -14.5%;
+           margin-left: 25%;
+       }
+       .c12{
+        padding: 3px 90px 3px 122px;
+       }
+    .dora{
+        margin-top: -14.5%;
+        margin-left: 50%
+    }
+    .c13{
+        padding: 3px 97px 3px 84px;
+    }
+    .pire{
+        margin-top: -14.5%;
+        margin-left: 75%;
+    }
+    
+}
