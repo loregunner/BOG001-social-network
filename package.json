@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Social Network @ Laboratoria",
   "main": "src/index.html",
-  "gh-pages": "^2.1.1",
   "keywords": [
     "javascript",
     "firebase",
@@ -16,8 +15,10 @@
     "stylelint": "stylelint --aei src/**/*.css",
     "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
     "test": "jest --coverage",
-    "deploy": "gh-pages -d src",
-    "start": "serve src/"
+    "start": "serve src/",
+    "eslintfix": "eslint --fix",
+    "build": "webpack --mode production",
+    "deploy": "rm -rf dist && npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -39,6 +40,7 @@
     "test": "test"
   },
   "dependencies": {
+    "firebase": "^7.19.0"
   },
   "repository": {
     "type": "git",
